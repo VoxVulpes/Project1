@@ -1,0 +1,7 @@
+[
+null,
+{"id":1,"list":[{"code":355,"indent":0,"parameters":["Window.prototype._updateCursor = function() {"]},{"code":655,"indent":0,"parameters":["    var blinkCount = this._animationCount % 40;"]},{"code":655,"indent":0,"parameters":["    var cursorOpacity = this.contentsOpacity;"]},{"code":655,"indent":0,"parameters":["    if (this.active) {"]},{"code":655,"indent":0,"parameters":["        if (blinkCount < 20) {"]},{"code":655,"indent":0,"parameters":["            cursorOpacity -= blinkCount * 8;"]},{"code":655,"indent":0,"parameters":["        } else {"]},{"code":655,"indent":0,"parameters":["            cursorOpacity -= (40 - blinkCount) * 8;"]},{"code":655,"indent":0,"parameters":["        }"]},{"code":655,"indent":0,"parameters":["    }"]},{"code":655,"indent":0,"parameters":["    //this._windowCursorSprite.alpha = cursorOpacity / 255;"]},{"code":655,"indent":0,"parameters":["    this._windowCursorSprite.visible = this.isOpen();"]},{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":2,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":3,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":4,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
+]
